@@ -17,6 +17,10 @@
   },
   "homepage": "https://github.com/Frank1e0927/gql-node#readme",
   "dependencies": {
-    "graphql": "^14.5.8"
+    "graphql": "^14.5.8",
+    "koa": "^2.11.0",
+    "koa-graphql": "^0.8.0",
+    "koa-mount": "^4.0.0",
+    "koa-static": "^5.0.0"
   }
 }
