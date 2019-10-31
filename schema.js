@@ -49,7 +49,7 @@ schema.getQueryType().getFields().comment.resolve = () => {
   return Object.keys(mockDatabase).map(key => mockDatabase[key])
 }
 
-schema.getMutationType.getFields().praise.resolve = (id) => {
+schema.getMutationType().getFields().praise.resolve = (_, { id }) => {
   mockDatabase[id].praiseNum++
   return mockDatabase[id].praiseNum
 }
