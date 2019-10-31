@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/Frank1e0927/gql-node/issues"
   },
-  "homepage": "https://github.com/Frank1e0927/gql-node#readme"
+  "homepage": "https://github.com/Frank1e0927/gql-node#readme",
+  "dependencies": {
+    "graphql": "^14.5.8"
+  }
 }
